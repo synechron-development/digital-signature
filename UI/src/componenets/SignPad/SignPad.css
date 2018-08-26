@@ -1,16 +1,15 @@
-.wrapper {
+.signature-pad .wrapper {
   position: relative;
-  width: 400px;
-  height: 200px;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  user-select: none; }
-
-.signature-pad {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 400px;
-  height: 200px;
-  background-color: white; }
+  user-select: none;
+  height: 200px; }
+  .signature-pad .wrapper #signature-pad {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 300px;
+    height: 200px;
+    background-color: white; }
