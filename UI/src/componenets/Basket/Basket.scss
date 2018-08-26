@@ -1,0 +1,13 @@
+.basket{
+    background: #c5c5c5;
+    color:white;
+    .uk-accordion-title{
+        &:after{
+            content: none;
+        }
+    }
+
+    .uk-button{
+        width: 100%;
+    }
+}

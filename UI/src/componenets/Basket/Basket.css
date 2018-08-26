@@ -1,0 +1,7 @@
+.basket {
+  background: #c5c5c5;
+  color: white; }
+  .basket .uk-accordion-title:after {
+    content: none; }
+  .basket .uk-button {
+    width: 100%; }

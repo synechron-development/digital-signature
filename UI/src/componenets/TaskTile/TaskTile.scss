@@ -1,0 +1,21 @@
+.task-tile{
+    position: relative;
+    .uk-card{
+        height: 100%;
+        h3{
+            font-size: 18px;
+        }
+        p{
+            font-size: 12px;
+            display: inline;
+        }
+    }
+    .toggle-tile{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        left: 0;
+        top: 0;
+    }
+}
